@@ -76,42 +76,48 @@ jQuery(document).ready(function($) {
 
     $("form#contactForm button.submit").click(function() {
       $("#image-loader").fadeIn();
-
+      console.log("Sending Email");
       var contactName = $("#contactForm #contactName").val();
       var contactEmail = $("#contactForm #contactEmail").val();
       var contactSubject = $("#contactForm #contactSubject").val();
       var contactMessage = $("#contactForm #contactMessage").val();
 
-      var data =
-        "contactName=" +
-        contactName +
-        "&contactEmail=" +
-        contactEmail +
-        "&contactSubject=" +
-        contactSubject +
-        "&contactMessage=" +
-        contactMessage;
+      sendmail();
+      
+      function sendmail(event, $w) {
+          let params = {
+              user_id: 'user_hVcUTcAOCKiP0S4nFCgMg',
+              service_id: 'service_xuih45j',
+              template_id: 'template_4qcgw2z',
+              template_params: {
+                  'to_name': 'Agus',
+                  'to_mail': 'agustincastaing@gmail.com',
+                  'from_name': contactName,
+                  'from_email': contactEmail,
+                  'message': contactMessage
+              }
+          };
+      
+          let options = {
+              method: 'POST',
+              headers: { 'Content-type': 'application/json' },
+              body: JSON.stringify(params)
+          };
+      
+          fetch('https://api.emailjs.com/api/v1.0/email/send', options)
+              .then((httpResponse) => {
+                  if (httpResponse.ok) {
+                      console.log('Your mail is sent!');
+                  } else {
+                      return httpResponse.text()
+                          .then(text => Promise.reject(text));
+                  }
+              })
+              .catch((error) => {
+                  console.log('Oops... ' + error);
+              });
+      }
 
-      $.ajax({
-        type: "POST",
-        url: "inc/sendEmail.php",
-        data: data,
-        success: function(msg) {
-          // Message was sent
-          if (msg == "OK") {
-            $("#image-loader").fadeOut();
-            $("#message-warning").hide();
-            $("#contactForm").fadeOut();
-            $("#message-success").fadeIn();
-          }
-          // There was an error
-          else {
-            $("#image-loader").fadeOut();
-            $("#message-warning").html(msg);
-            $("#message-warning").fadeIn();
-          }
-        }
-      });
       return false;
     });
   }, time);

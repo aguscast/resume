@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import SMTPClient from 'emailjs';
 
 class Contact extends Component {
+
   render() {
     if (!this.props.data) return null;
 
@@ -28,7 +30,7 @@ class Contact extends Component {
 
         <div className="row">
           <div className="eight columns">
-            <form action="" method="post" id="contactForm" name="contactForm">
+            <form method="post" id="contactForm" name="contactForm">
               <fieldset>
                 <div>
                   <label htmlFor="contactName">
@@ -100,13 +102,13 @@ class Contact extends Component {
                 {name}
                 <br />
                 {street} <br />
-                {city}, {state} {zip}
+                {city} {state} {zip}
                 <br />
                 <span>{phone}</span>
               </p>
             </div>
 
-            <div className="widget widget_tweets">
+            {/* <div className="widget widget_tweets">
               <h4 className="widget-title">Latest Tweets</h4>
               <ul id="twitter">
                 <li>
@@ -130,7 +132,7 @@ class Contact extends Component {
                   </b>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </aside>
         </div>
       </section>
