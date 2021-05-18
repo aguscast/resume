@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Agustin Castaing",
-    "description":"I am a web developer and I use react and node.JS to develop pages. This is an example of what your page could look like",
+    "description":"I am a web developer and I use react and node.JS to develop web pages. This is an example of what your web page could look like",
     "image":"profilepic.png",
     "cv": "aguscast-cv.pdf",
     "bio":" years old FullStack Developer actively seeking employment in an environment that will allow me to develop my career in the tech sector",
@@ -38,7 +38,7 @@
     "education":[
       {
         "school":"Universidad de Belgrano",
-        "degree":"Bussines Administration",
+        "degree":"Business Administration",
         "graduated":"2018 - Present"
       },
       {
@@ -49,7 +49,7 @@
       },
       {
         "school":"Florida Day School",
-        "degree":"Bilingual Bachelor's with Scince Mayor",
+        "degree":"Bilingual Bachelor's with Science Mayor",
         "graduated":"2001 -2013"
       }
     ],
@@ -103,10 +103,9 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Cotizador Online Sura MX",
+        "image":"Sura-Cotizador.jpg",
+        "url":"https://cotizatuseguro.segurossura.com.mx/autos/home"
       },
       {
         "title":"Fury Fighting Gear",
@@ -121,58 +120,10 @@
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
         "title":"Smirkspace",
         "category":"(MVP Only) A React and Meteor based chat University project.",
         "image":"05.jpg",
         "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
       }
     ]
   }

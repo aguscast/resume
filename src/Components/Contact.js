@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import SMTPClient from 'emailjs';
 
 class Contact extends Component {
 

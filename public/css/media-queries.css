@@ -141,6 +141,7 @@
 	#nav-wrap:not( :target ) > a:first-of-type,
 	#nav-wrap:target > a:last-of-type  {
 	   display: block;
+      border-radius: 5%;
 	}
 
    /* hide menu panel */
@@ -163,6 +164,7 @@
       background: #1f2024;
       margin: 0 30px;
       clear: both;
+      border-radius: 3%;
    }
 
    ul#nav li {

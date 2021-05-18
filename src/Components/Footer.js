@@ -7,7 +7,7 @@ class Footer extends Component {
     const networks = this.props.data.social.map(function(network) {
       return (
         <li key={network.name}>
-          <a href={network.url} target="_blank">
+          <a href={network.url} rel="noreferrer" target="_blank">
             <i className={network.className}></i>
           </a>
         </li>
