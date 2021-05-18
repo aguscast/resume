@@ -1,0 +1,130 @@
+{
+  "main": {
+    "name":"Agustin Castaing",
+    "description":"I am a web developer and I use react and node.JS to develop web pages. This is an example of what your web page could look like",
+    "image":"profilepic.png",
+    "cv": "aguscast-cv.pdf",
+    "bio":" years old FullStack Developer actively seeking employment in an environment that will allow me to develop my career in the tech sector",
+    "contactmessage":"Leave me a message and i will contact you",
+    "email": "agustincastaing@gmail.com",
+    "phone": "+ 54 1122537955",
+    "github":"https://github.com/aguscast",
+    "project":"",
+    "address":{
+      "street":"Cardenal Copello 176",
+      "state":"Buenos Aires, Argentina"
+    },
+    "website": "http://www.timbakerdev.com",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/agustin-castaing-bb5b82115/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/aguscastaing",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/aguscast",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Some of my Software skills",
+    "education":[
+      {
+        "school":"Universidad de Belgrano",
+        "degree":"Business Administration",
+        "graduated":"2018 - Present"
+      },
+      {
+        "school":"Universidad de Buenos Aires",
+        "degree":"Computer Science",
+        "graduated":"2015 - 2017"
+        
+      },
+      {
+        "school":"Florida Day School",
+        "degree":"Bilingual Bachelor's with Science Mayor",
+        "graduated":"2001 -2013"
+      }
+    ],
+    "work":[
+      {
+        "company":"Binit",
+        "title":"Software Developer",
+        "years":"Jan 2020 - Present",
+        "description":"C# .Net, Angular, React, Node.JS, HTML, SQL, MongoDB, Azure, GIT"
+      },
+      {
+        "company":"8Agency Marketing",
+        "title":"Jr Developer | Acount Executive",
+        "years":"May 2015 - Dec 2017",
+        "description":"CMS Web Migration for Think With Google - Web Development | Account Management: Android Wear Global"
+      }
+    ],
+    "skills":[
+      {
+        "name":".NET",
+        "level":"40%",
+        "color": "#8661c5"
+      },
+      {
+        "name":"Angular",
+        "level":"81%",
+        "color": "#BE1B16"
+      },
+      {
+        "name":"React",
+        "level":"70%",
+        "color": "#59baee"
+      },
+      {
+        "name":"CSS",
+        "level":"80%",
+        "color": "#1572b6"
+      },
+      {
+        "name":"Node.JS",
+        "level":"75%",
+        "color": "#83cd29"
+      },
+      {
+        "name":"Vue",
+        "level":"40%",
+        "color": "#415163"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Cotizador Online Sura MX",
+        "image":"Sura-Cotizador.jpg",
+        "url":"https://cotizatuseguro.segurossura.com.mx/autos/home"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  }
+}
